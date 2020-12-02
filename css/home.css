@@ -1,0 +1,364 @@
+.header__mid {
+  width : 70vw !important;
+}
+
+.buttons a{
+  margin : 50px;
+  padding : 20px 30px;
+}
+.mission{
+  width : 70vw;
+  margin : auto;
+  margin-bottom: 100px;
+}
+
+.contentt{
+    margin-top: -50px;
+  padding : 50px;
+  box-shadow:  1px 1px 40px rgba(127, 181, 57,0.2),
+               -1px -1px 40px rgba(127, 181, 57,0.2) !important;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(127, 181, 57);
+  background: white;
+
+}
+
+iframe{
+  width:560px;
+  height: 315px;
+}
+
+input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: rgb(127, 181, 57);
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+.buttons{
+  margin : 30px;
+}
+
+.mid__section{
+  width : 80vw;
+  margin: 5vh auto;
+  text-align: center;
+}
+
+.mid__section2{
+  background: #e0e5ec;
+  padding :30px 0;
+}
+
+.heading2{
+  text-align: center;
+}
+
+.heading2 h2{
+  font-size: 46px;
+}
+.hr{
+  height: 3px;
+  border-radius: 30px;
+  width : 100px;
+  background:  rgb(127, 181, 57);
+  margin: 6px auto;
+}
+
+.heading2 .hr{
+  width : 200px;
+  margin-bottom: 20px;
+}
+
+.heading h2 {
+  color:  rgb(127, 181, 57);
+  font-size: 46px;
+  font-weight:  600;
+}
+
+.heading p{
+  margin-bottom: 70px;
+  font-size: 16px;
+}
+
+
+.images {
+  display : grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 20px;
+  margin: 30px 60px;
+}
+
+.images p{
+  font-size: 14px;
+}
+
+.images .para1{
+  background-image: url("../images/construction-materials.jpg");
+  height : 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.images .para3{
+  background-image: url("../images/images.jpg");
+  height : 400px;
+  background-size: cover;
+  background-position:center;
+  border-radius: 10px;
+}
+
+.images .para2{
+  background-image: url("../images/masonry-buildings.png");
+  height : 400px;
+  background-size: cover;
+  background-position:center;
+  border-radius: 10px;
+}
+
+.images .para4{
+  background-image: url("../images/construction-materials.jpg");
+  height : 400px;
+  background-size: cover;
+  background-position:center;
+  border-radius: 10px;
+}
+
+.images div {
+  position: relative;
+}
+
+.images div p{
+  background:  rgba(127, 181, 57,0.9);
+  display: none;
+  border-radius: 10px;
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  margin: 0;
+}
+
+
+.images div:hover p{
+  display: block;
+}
+
+.benfits {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  margin : 30px;
+  margin-left : 5vw;
+  text-align: left;
+  font-size: 16px;
+}
+
+.type{
+  border-radius: 3px;
+  border: 1px solid rgb(127, 181, 57);
+  text-align: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.type div{
+    margin-top: -1px;
+    padding: 23px;
+}
+
+.type div.active{
+  background: rgb(127, 181, 57);
+  color: white;
+  border-radius: 3px;
+}
+
+.benfits img {
+  height : 250px;
+  border-radius: 10px;
+}
+
+.benfits .imagge{
+  padding : 20px;
+}
+
+.benfits div p{
+  margin-bottom: 10px;
+}
+
+.benfits div span {
+  padding-left: 20px;
+}
+
+.ok .hr{
+  width : 400px;
+}
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap : 40px;
+  margin: 80px;
+}
+
+
+.features div{
+  border-radius: 10px;
+  background-color: white;
+  border : 1px solid rgb(127, 181, 57);
+  padding : 40px;
+  text-align: center;
+}
+
+.features div p{
+  margin-top: 20px;
+}
+
+@media (max-width : 1400px)  {
+  .benfits{
+    grid-template-columns: 1.75fr 1fr;
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .benfits img{
+    height : 200px;
+    margin-left: 5vw;
+  }
+
+  .images{
+    grid-gap : 10px;
+    margin: 30px;
+  }
+
+}
+
+@media (max-width : 1100px) {
+  .mid__section{
+    margin : 5vw 5vw 5vw 5vw;
+    width : 90vw;
+  }
+  .benfits{
+    margin-right: 0;
+  }
+
+  .benfits p{
+    font-size: 13px;
+  }
+
+  .images{
+    grid-template-columns: 1fr 1fr;
+    margin :10vw;
+    grid-gap: 40px;
+  }
+}
+@media (max-width : 900px)
+ {
+   .heading2 h2{
+     font-size: 20px;
+   }
+   .heading h2{
+     font-size: 20px;
+   }
+
+   .ok .hr {
+     width : 200px;
+   }
+
+   .type div{
+     padding : 16px;
+     margin-left: -1px;
+     padding-bottom: 17px;
+   }
+
+   .heading2 .hr {
+     width : 100px;
+   }
+
+   .heading p{
+     font-size: 14px;
+   }
+
+   .benfits p{
+     font-size: 11px;
+   }
+
+   .header__mid{
+     width : 85vw !important;
+   }
+}
+
+
+@media (max-width : 800px) {
+  .benfits{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .benfits p{
+    font-size: 13px;
+  }
+
+  .benfits .imagge{
+    grid-row : 1/2;
+  }
+}
+
+@media (max-width : 700px) {
+  .header__mid {
+    width : 95vw !important;
+    margin-left: -30px;
+  }
+
+  .header__mid h1{
+    font-size: 25px;
+  }
+
+  .buttons {
+
+  }
+
+  .buttons a{
+    margin : 30px auto;
+    display: block;
+    width : 200px;
+  }
+
+
+  .images {
+    grid-template-columns: 1fr;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width : 550px) {
+  .header__mid {
+    width : 95vw !important;
+    margin-left: -50px;
+  }
+
+  .header__mid h1{
+    font-size: 20px;
+  }
+
+  iframe{
+    width: 90vw;
+  }
+
+}

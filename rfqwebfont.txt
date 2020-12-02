@@ -1,0 +1,21 @@
+For web
+
+Hero section Titles - 60 semibold
+Titles - 46 semibold
+paragraph - 16 regular
+menu  - 20 semibold
+Footer - Titles 24 semibold, 18  regular paragraphs
+
+For mobile 
+
+Hero sectionTitles - 25 semibold
+Titles - 20 semibold
+paragraph - 12 regular
+Footer - Titles 12 semibold, 10 regular paragraphs
+
+For tab
+
+Hero section Titles - 30 semibold
+Titles - 20 semibold
+paragraph - 14 regular
+Footer - Titles 18 semibold, 12 regular paragraphs

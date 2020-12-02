@@ -1,0 +1,235 @@
+.mid__section{
+  width: 80vw;
+  margin : auto;
+  margin-top: 100px;
+
+}
+
+.contactFrom{
+  padding : 50px;
+  box-shadow:  1px 1px 40px rgba(127, 181, 57,0.2),
+               -1px -1px 40px rgba(127, 181, 57,0.2) !important;
+  border-radius: 5px;
+}
+.contactFrom input,textarea{
+  outline: rgb(127, 181, 57);
+  border:   2px solid rgb(127, 181, 57);
+  border-radius: 5px;
+  padding : 20px;
+  width : 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.method{
+  margin : 50px 0;
+}
+
+.contactFrom .method input{
+  width : auto;
+  margin: 0 10px;
+}
+
+input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: rgb(127, 181, 57);
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+.mid__section input::placeholder{
+  color : #2a2b2b;
+    font-weight: 400;
+}
+
+.mid__section textarea::placeholder{
+  color : #2a2b2b;
+    font-weight: 400;
+}
+
+.contactFrom .name{
+  display : flex;
+  justify-content: space-between;
+}
+
+.contactFrom .name input{
+  width : 49%;
+  margin-bottom: 50px;
+
+}
+
+.terms {
+  display: flex;
+  margin: 30px 0 0 0;
+  word-spacing: 3px;
+  letter-spacing: 1.6px;
+}
+
+.checked{
+  width: 50px;
+}
+
+.checked input{
+  width : 25px;
+  height: 25px;
+  margin: 10px;
+}
+
+.terms .termss p span a{
+  color: rgb(127, 181, 57)!important;
+  font-weight: 600;
+}
+
+.submit{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.submit .btn{
+  background: rgb(127, 181, 57);
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 5px;
+}
+
+.submit .btn span{
+  background: white;
+  border-radius: 50%;
+  padding: 6px;
+  margin-left: 10px;
+}
+
+.btn span img{
+  height : 16px;
+}
+
+
+.map{
+  height : 600px;
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.logos{
+  display: grid;
+  grid-template-columns: 1.75fr 1.25fr 1fr;
+  margin : 70px 0 70px 7vw;
+  grid-gap : 20px;
+}
+
+.logos div{
+  display: flex;
+}
+
+.logos .left {
+  width : 350px;
+}
+
+.logos .mid p{
+  padding-top: 13px;
+}
+
+.logos .right {
+  padding-left : 3vw;
+}
+
+.logos p{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.logos .right p{
+  padding-top : 18px;
+}
+
+
+@media (max-width : 1000px) {
+  .logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap : 30px;
+
+  }
+
+  .logos .left {
+    grid-column: 1/3;
+  }
+
+  .logos .mid{
+    grid-column: 3/5;
+    padding-left: 20px;
+  }
+
+
+  .logos .right{
+    grid-column: 2/4;
+  }
+
+  .map {
+    height : 450px;
+  }
+}
+
+
+@media (max-width : 600px){
+  .logos{
+    grid-template-columns: 1fr;
+  }
+
+  .logos .left {
+    grid-column: 1/2;
+    margin: 10px 0 20px 30px;
+  }
+
+  .logos .mid{
+    grid-column: 1/2;
+    margin: 10px 0 20px 30px;
+    padding-left: 0;
+  }
+
+
+  .logos .right{
+    grid-column: 1/2;
+    margin: 10px 0 20px 30px;
+  }
+
+  .contactFrom{
+    padding : 25px;
+  }
+
+  .contactFrom .name {
+    display: block;
+  }
+
+  .contactFrom .name input{
+    width : 100%;
+  }
+
+  .map {
+    height : 300px;
+  }
+
+}
