@@ -6,10 +6,10 @@
             <a href="#">Help Center</a>
             <a href="faq.php">FAQ</a>
             <div class="linkss" id="insideAbout">
-                <img src="images/icons/facebook.svg" alt="">
-                <img src="images/icons/insta.svg" alt="">
-                <img src="images/icons/twitter.svg" alt="">
-                <img src="images/icons/Linkedin.svg" alt="">
+                <img src="web-assets/images/icons/facebook.svg" alt="">
+                <img src="web-assets/images/icons/insta.svg" alt="">
+                <img src="web-assets/images/icons/twitter.svg" alt="">
+                <img src="web-assets/images/icons/Linkedin.svg" alt="">
             </div>
         </div>
         <div class="">
@@ -31,18 +31,18 @@
             <a href="#" class="btn active">Submit</a>
         </div>
         <div class="linkss" id="insidefoot">
-            <img src="images/icons/facebook.svg" alt="">
-            <img src="images/icons/insta.svg" alt="">
-            <img src="images/icons/twitter.svg" alt="">
-            <img src="images/icons/Linkedin.svg" alt="">
+            <img src="web-assets/images/icons/facebook.svg" alt="">
+            <img src="web-assets/images/icons/insta.svg" alt="">
+            <img src="web-assets/images/icons/twitter.svg" alt="">
+            <img src="web-assets/images/icons/Linkedin.svg" alt="">
         </div>
     </div>
     <div class="footer__social__links">
         <div class="linkss" id="outsidefoot">
-            <img src="images/icons/facebook.svg" alt="">
-            <img src="images/icons/insta.svg" alt="">
-            <img src="images/icons/twitter.svg" alt="">
-            <img src="images/icons/Linkedin.svg" alt="">
+            <img src="web-assets/images/icons/facebook.svg" alt="">
+            <img src="web-assets/images/icons/insta.svg" alt="">
+            <img src="web-assets/images/icons/twitter.svg" alt="">
+            <img src="web-assets/images/icons/Linkedin.svg" alt="">
         </div>
         <a href="#" >Copyright yourRFQ.com</a>
         <a href="#" >Privacy Policy </a>
@@ -51,6 +51,6 @@
 
 </div>
 </div>
-<script src="js/main.js"></script>
+<script src="web-assets/js/main.js"></script>
 </body>
 </html>

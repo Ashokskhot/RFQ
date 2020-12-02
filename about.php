@@ -1,6 +1,6 @@
 <?php include_once("header.php");?>
-<link rel="stylesheet" href="css/faq.css">
-<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="web-assets/css/faq.css">
+<link rel="stylesheet" href="web-assets/css/about.css">
 <div class="header__mid">
     <h1>About Us</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
@@ -13,8 +13,8 @@
         <div class="hr mob__head"></div>
         <div class="container">
             <div class="left__container">
-                <img src="images/about.jpg" alt="" class="fst">
-                <img src="images/about.jpg" alt="" class="second">
+                <img src="web-assets/images/about.jpg" alt="" class="fst">
+                <img src="web-assets/images/about.jpg" alt="" class="second">
             </div>
             <div class="right__container">
                 <h2>Who we are</h2>
@@ -29,8 +29,8 @@
         <div class="container mid">
 
             <div class="left__container">
-                <img src="images/about.jpg" alt="" class="first">
-                <img src="images/about.jpg" alt="" class="third">
+                <img src="web-assets/images/about.jpg" alt="" class="first">
+                <img src="web-assets/images/about.jpg" alt="" class="third">
             </div>
             <div class="right__container">
                 <h2>What we do</h2>
@@ -43,8 +43,8 @@
         <div class="hr mob__head"></div>
         <div class="container">
             <div class="left__container">
-                <img src="images/about.jpg" alt="" class="fst">
-                <img src="images/about.jpg" alt="" class="second">
+                <img src="web-assets/images/about.jpg" alt="" class="fst">
+                <img src="web-assets/images/about.jpg" alt="" class="second">
             </div>
             <div class="right__container">
                 <h2>How we do it</h2>
@@ -62,7 +62,7 @@
         </div>
 
         <div>
-            <img src="images/icons/+.svg" alt="" style="vertical-align : middle" />
+            <img src="web-assets/images/icons/+.svg" alt="" style="vertical-align : middle" />
             <p class="faq" style="vertical-align : middle; display: inline;">Lorem ipsum</p>
             <div class="faq_ans">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -71,7 +71,7 @@
         </div>
 
         <div >
-            <img src="images/icons/+.svg" alt="" style="vertical-align : middle" />
+            <img src="web-assets/images/icons/+.svg" alt="" style="vertical-align : middle" />
             <p class="faq" style="vertical-align : middle; display: inline;">Lorem ipsum</p>
             <div class="faq_ans">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -79,7 +79,7 @@
         </div>
         <hr>
         <div >
-            <img src="images/icons/+.svg" alt="" style="vertical-align : middle" />
+            <img src="web-assets/images/icons/+.svg" alt="" style="vertical-align : middle" />
             <p class="faq" style="vertical-align : middle; display: inline;">Lorem ipsum</p>
             <div class="faq_ans">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -87,7 +87,7 @@
         </div>
         <hr>
         <div >
-            <img src="images/icons/+.svg" alt="" style="vertical-align : middle" />
+            <img src="web-assets/images/icons/+.svg" alt="" style="vertical-align : middle" />
             <p class="faq" style="vertical-align : middle; display: inline;">Lorem ipsum</p>
             <div class="faq_ans">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

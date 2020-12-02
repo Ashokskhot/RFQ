@@ -1,9 +1,9 @@
 <?php include_once("header.php");?>
-<link rel="stylesheet" href="css/review.css">
+<link rel="stylesheet" href="web-assets/css/review.css">
 <div class="header__mid">
     <h1>Project Reviews</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-    <img src="images/icons/Group1766.svg" alt="" style="margin-top: 30px;">
+    <img src="web-assets/images/icons/Group1766.svg" alt="" style="margin-top: 30px;">
 </div>
 </div>
 
@@ -21,7 +21,7 @@
             </div>
             <div class="review__detail">
                 <h5>Name</h5>
-                <img src="images/icons/Group1766.svg" alt="" style="margin-top: 3px;">
+                <img src="web-assets/images/icons/Group1766.svg" alt="" style="margin-top: 3px;">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d</p>
             </div>
@@ -32,7 +32,7 @@
             </div>
             <div class="review__detail">
                 <h5>Name</h5>
-                <img src="images/icons/Group1766.svg" alt="" style="margin-top: 3px;">
+                <img src="web-assets/images/icons/Group1766.svg" alt="" style="margin-top: 3px;">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d</p>
             </div>
@@ -43,7 +43,7 @@
             </div>
             <div class="review__detail">
                 <h5>Name</h5>
-                <img src="images/icons/Group1766.svg" alt="" style="margin-top: 3px;">
+                <img src="web-assets/images/icons/Group1766.svg" alt="" style="margin-top: 3px;">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d</p>
             </div>
@@ -54,7 +54,7 @@
             </div>
             <div class="review__detail">
                 <h5>Name</h5>
-                <img src="images/icons/Group1766.svg" alt="" style="margin-top: 3px;">
+                <img src="web-assets/images/icons/Group1766.svg" alt="" style="margin-top: 3px;">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d</p>
             </div>
@@ -65,7 +65,7 @@
             </div>
             <div class="review__detail">
                 <h5>Name</h5>
-                <img src="images/icons/Group1766.svg" alt="" style="margin-top: 3px;">
+                <img src="web-assets/images/icons/Group1766.svg" alt="" style="margin-top: 3px;">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d</p>
             </div>
@@ -73,7 +73,7 @@
     </div>
     <div class="pages">
         <div class="img1">
-            <img src="images/icons/Polygon3.svg" alt="">
+            <img src="web-assets/images/icons/Polygon3.svg" alt="">
         </div>
         <div class="active">
             <p>1</p>
@@ -85,7 +85,7 @@
             <p>3</p>
         </div>
         <div class="img2">
-            <img src="images/icons/Polygon3.svg" alt="">
+            <img src="web-assets/images/icons/Polygon3.svg" alt="">
         </div>
     </div>
 </div>

@@ -1,5 +1,5 @@
 <?php include_once("header.php");?>
-<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="web-assets/css/home.css">
 <div class="header__mid" >
     <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </h1>
     <div class="buttons">
@@ -87,7 +87,7 @@
             </p>
         </div>
         <div class="imagge">
-            <img src="images/about.jpg" alt="">
+            <img src="web-assets/images/about.jpg" alt="">
         </div>
     </div>
 </div>
@@ -99,15 +99,15 @@
     </div>
     <div class="features">
         <div class="">
-            <img src="images/icons/credit-card.svg" alt="">
+            <img src="web-assets/images/icons/credit-card.svg" alt="">
             <p>Secure Payments</p>
         </div>
         <div class="">
-            <img src="images/icons/counsel.svg" alt="">
+            <img src="web-assets/images/icons/counsel.svg" alt="">
             <p>Expert Advice</p>
         </div>
         <div class="">
-            <img src="images/icons/Group1763.svg" alt="">
+            <img src="web-assets/images/icons/Group1763.svg" alt="">
             <p>Great Earning Potential</p>
         </div>
     </div>

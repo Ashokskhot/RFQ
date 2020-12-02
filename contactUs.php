@@ -1,5 +1,5 @@
 <?php include_once("header.php");?>
-<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="web-assets/css/contact.css">
 <div class="header__mid">
     <h1>Get In touch With Us</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
@@ -37,22 +37,22 @@
         </div>
         <div class="submit">
 
-            <a href="#" class="btn">Enquire Now <span><img src="images/icons/arrow.svg" alt=""></span> </a>
+            <a href="#" class="btn">Enquire Now <span><img src="web-assets/images/icons/arrow.svg" alt=""></span> </a>
         </div>
     </div>
 
 </div>
 <div class="logos">
     <div class="left">
-        <img src="images/icons/map.svg" alt="">
+        <img src="web-assets/images/icons/map.svg" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
     </div>
     <div class="mid">
-        <img src="images/icons/mail.svg" alt="">
+        <img src="web-assets/images/icons/mail.svg" alt="">
         <p>RFQ88345@gmail.com</p>
     </div>
     <div class="right">
-        <img src="images/icons/Page-1.svg" alt="">
+        <img src="web-assets/images/icons/Page-1.svg" alt="">
         <p>+91 1234567891</p>
     </div>
 </div>
