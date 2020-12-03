@@ -26,7 +26,7 @@
         </div>
         <h2 class="mob__head">What we do</h2>
         <div class="hr mob__head"></div>
-        <div class="container mid">
+        <div class="container2 mid">
 
             <div class="left__container">
                 <img src="web-assets/images/about.jpg" alt="" class="first">

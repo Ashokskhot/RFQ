@@ -75,13 +75,13 @@
         <div class="img1">
             <img src="web-assets/images/icons/Polygon3.svg" alt="">
         </div>
-        <div class="active">
+        <div class="page active">
             <p>1</p>
         </div>
-        <div class="">
+        <div class="page">
             <p>2</p>
         </div>
-        <div class="">
+        <div class="page">
             <p>3</p>
         </div>
         <div class="img2">

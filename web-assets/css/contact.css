@@ -13,7 +13,7 @@
 }
 .contactFrom input,textarea{
   outline: rgb(127, 181, 57);
-  border:   2px solid rgb(127, 181, 57);
+  border:   1px solid rgb(127, 181, 57);
   border-radius: 5px;
   padding : 20px;
   width : 100%;
@@ -21,12 +21,45 @@
 }
 
 .method{
-  margin : 50px 0;
+  margin : 30px 0;
 }
 
 .contactFrom .method input{
   width : auto;
   margin: 0 10px;
+}
+
+
+/* custom radio button*/
+input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 25px !important;
+  height: 25px;
+  padding: 3px 2px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid rgba(127, 181, 57, 1);
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 10px 10px !important;
+  top: 6px;
+  position: relative;
+}
+
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+  background-color: rgba(127, 181, 57, 1);
+}
+
+/* optional styles, I'm using this for centering radiobuttons */
+.flex {
+  display: flex;
+  align-items: center;
 }
 
 input[type='radio']:after {
@@ -36,7 +69,7 @@ input[type='radio']:after {
         top: -2px;
         left: -1px;
         position: relative;
-        background-color: #d1d3d1;
+        background-color: #ffffff;
         content: '';
         display: inline-block;
         visibility: visible;
@@ -136,7 +169,7 @@ input[type='radio']:after {
 .logos{
   display: grid;
   grid-template-columns: 1.75fr 1.25fr 1fr;
-  margin : 70px 0 70px 7vw;
+  margin : 70px 8% 70px;
   grid-gap : 20px;
 }
 
@@ -167,6 +200,13 @@ input[type='radio']:after {
 
 
 @media (max-width : 1000px) {
+  .mid__section {
+    width: 84%;
+    margin-top: 50px;
+  }
+  .contactFrom .name input {
+    margin-bottom: 30px;
+  }
   .logos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -201,19 +241,20 @@ input[type='radio']:after {
 
   .logos .left {
     grid-column: 1/2;
-    margin: 10px 0 20px 30px;
+    /*margin: 10px 0 20px 30px;*/
   }
 
   .logos .mid{
     grid-column: 1/2;
-    margin: 10px 0 20px 30px;
+    /*margin: 10px 0 20px 30px;*/
     padding-left: 0;
   }
 
 
   .logos .right{
     grid-column: 1/2;
-    margin: 10px 0 20px 30px;
+    /*margin: 10px 0 20px 30px;*/
+    padding-left: 0;
   }
 
   .contactFrom{
@@ -232,4 +273,76 @@ input[type='radio']:after {
     height : 300px;
   }
 
+}
+
+.checkbox {
+  width: 100%;
+  margin: 15px auto;
+  position: relative;
+  display: block;
+}
+
+.checkbox input[type="checkbox"] {
+  width: auto;
+  opacity: 0.00000001;
+  position: absolute;
+  left: 0;
+  margin-left: -20px;
+}
+.checkbox label {
+  position: relative;
+}
+.checkbox label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 4px;
+  width: 22px;
+  height: 22px;
+  transition: transform 0.28s ease;
+  border-radius: 3px;
+  border: 2px solid rgb(127, 181, 57);
+}
+.checkbox label:after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 5px;
+  border-bottom: 2px solid rgb(127, 181, 57);
+  border-left: 2px solid rgb(127, 181, 57);
+  -webkit-transform: rotate(-45deg) scale(0);
+  transform: rotate(-45deg) scale(0);
+  transition: transform ease 0.25s;
+  will-change: transform;
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+.checkbox input[type="checkbox"]:checked ~ label::before {
+  color: rgb(127, 181, 57);
+}
+
+.checkbox input[type="checkbox"]:checked ~ label::after {
+  -webkit-transform: rotate(-45deg) scale(1);
+  transform: rotate(-45deg) scale(1);
+}
+
+.checkbox label {
+  min-height: 34px;
+  display: block;
+  padding-left: 40px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+  vertical-align: sub;
+}
+.checkbox label span {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.checkbox input[type="checkbox"]:focus + label::before {
+  outline: 0;
 }

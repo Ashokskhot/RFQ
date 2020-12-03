@@ -31,18 +31,18 @@
             <a href="#" class="btn active">Submit</a>
         </div>
         <div class="linkss" id="insidefoot">
-            <img src="web-assets/images/icons/facebook.svg" alt="">
-            <img src="web-assets/images/icons/insta.svg" alt="">
-            <img src="web-assets/images/icons/twitter.svg" alt="">
-            <img src="web-assets/images/icons/Linkedin.svg" alt="">
+            <img src="web-assets/images/icons/facebook-white.svg" alt="">
+            <img src="web-assets/images/icons/insta-white.svg" alt="">
+            <img src="web-assets/images/icons/twitter-white.svg" alt="">
+            <img src="web-assets/images/icons/Linkedin-white.svg" alt="">
         </div>
     </div>
     <div class="footer__social__links">
         <div class="linkss" id="outsidefoot">
-            <img src="web-assets/images/icons/facebook.svg" alt="">
-            <img src="web-assets/images/icons/insta.svg" alt="">
-            <img src="web-assets/images/icons/twitter.svg" alt="">
-            <img src="web-assets/images/icons/Linkedin.svg" alt="">
+            <img class="social-image facebook" src="web-assets/images/icons/facebook.svg" alt="">
+            <img class="social-image instagram" src="web-assets/images/icons/insta.svg" alt="">
+            <img class="social-image twitter" src="web-assets/images/icons/twitter.svg" alt="">
+            <img class="social-image linkedin" src="web-assets/images/icons/Linkedin.svg" alt="">
         </div>
         <a href="#" >Copyright yourRFQ.com</a>
         <a href="#" >Privacy Policy </a>
@@ -51,6 +51,7 @@
 
 </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="web-assets/js/main.js"></script>
 </body>
 </html>

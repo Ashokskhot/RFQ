@@ -7,9 +7,9 @@
 </div>
 
 <div class="mid__section">
-    <div class="type">
-        <a href="#" class="active">Customer's</a>
-        <a href="#">Supplier's</a>
+    <div class="faq-tab type">
+        <a href="#" class="tab active">Customer's</a>
+        <a href="#" class="tab">Supplier's</a>
     </div>
     <div class="faqs">
         <div >

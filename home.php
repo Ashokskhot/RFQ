@@ -3,15 +3,15 @@
 <div class="header__mid" >
     <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </h1>
     <div class="buttons">
-        <a href="#" class="btn">Business Tools</a>
-        <a href="#" class="btn">Industry Insights</a>
+        <a href="#" class="btn btn-banner">&nbsp;&nbsp;Business Tools&nbsp;&nbsp;</a>
+        <a href="#" class="btn btn-banner">Industry Insights</a>
     </div>
 </div>
 </div>
 
 <div class="mission">
     <div class="contentt">
-        <h2>Our Mission</h2>
+        <h2 class="heading2">Our Mission</h2>
         <div class="hr"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
     </div>
@@ -47,6 +47,9 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labo</p>
         </div>
     </div>
+    <div class="buttons-custom">
+        <button class="btn btn-custom">See more</button>
+    </div>
 </div>
 
 <div class="mid__section">
@@ -55,11 +58,10 @@
         <div class="hr"></div>
     </div>
     <div class="type">
-        <div class="active">
+        <div class="tab active">
             <p class="active">Supplier Benefits</p>
         </div>
-        <div class="">
-
+        <div class="tab">
             <p>Customer Benefits</p>
         </div>
     </div>
@@ -67,23 +69,23 @@
     <div class="benfits">
         <div class="">
 
-            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </span>
+            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet</span>
             </p>
-            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </span>
+            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet</span>
             </p>
-            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </span>
+            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet</span>
             </p>
-            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </span>
+            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet</span>
             </p>
-            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </span>
+            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet</span>
             </p>
-            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </span>
+            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet</span>
             </p>
-            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </span>
+            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet</span>
             </p>
-            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </span>
+            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet</span>
             </p>
-            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </span>
+            <p> <input type="radio" name="" value=""><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet</span>
             </p>
         </div>
         <div class="imagge">
@@ -94,7 +96,7 @@
 
 <div class="mid__section2">
     <div class="heading2 ok">
-        <h2>Thing You Also Might Wanna Know</h2>
+        <h2>Thing You Also Might Want to Know</h2>
         <div class="hr" style=""></div>
     </div>
     <div class="features">

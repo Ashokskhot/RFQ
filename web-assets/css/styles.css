@@ -9,7 +9,7 @@
 }
 
 a{
-  color: #2b2a2a;
+  color: rgba(127, 181, 57, 1);
   text-decoration: none;
 }
 
@@ -30,16 +30,24 @@ body{
   background-position: left;
   background-size: cover;
   color: white;
-  padding: 10px 50px 50px 50px;
+  padding: 0 50px 50px 50px;
+  overflow: hidden;
 }
 
 nav{
   display: flex;
   justify-content: space-between;
-
+  width: 100%;
+  position: fixed;
+  left: 0;
+  padding: 15px 8%;
+  transition: all 200ms linear;
 }
 
-
+.navbar-fixed-top.scrolled {
+  background-color: rgba(127, 181, 57, 1) !important;
+  z-index: 1000;
+}
 
 .hambergMenu{
   display: none;
@@ -51,11 +59,10 @@ nav{
 ul{
   display: flex;
   justify-content: space-between;
-  width: 70vw;
+  width: 65vw;
   text-decoration: none;
   list-style-type: none;
-  padding-top: 7px;
-
+  padding-top: 4px;
 }
 
 li a{
@@ -73,7 +80,7 @@ hr{
   padding: 10px 25px;
   border-radius: 40px;
   color: #2a2b2b;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
 }
 
@@ -86,9 +93,9 @@ color: rgba(127, 181, 57, 1);
 }
 
 .nav__items__mob{
-  position: absolute;
-  width: 100%;
-  margin-left: -50px;
+  position: fixed;
+  width: 100vw;
+  /*margin-left: -30px;*/
   margin-top: -10px;
   padding: 20px;
   top : -300px;
@@ -129,10 +136,8 @@ color: rgba(127, 181, 57, 1);
 
 .header__mid p{
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
 }
-
-
 
 .footer__links{
   background-image:linear-gradient(rgba(127, 181, 57, 0.9),rgba(127, 181, 57, 0.95)),
@@ -141,7 +146,7 @@ color: rgba(127, 181, 57, 1);
   background-position: center;
   background-size: cover;
   color: white;
-  padding: 10vh 5vw 2vh 5vw;
+  padding: 10vh 8vw 2vh 8vw;
   font-weight: 400;
   font-size: 12px;
   display: grid;
@@ -202,8 +207,8 @@ color: rgba(127, 181, 57, 1);
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center;
-  width: 90vw;
-  margin: 20px 10vw;
+  /*width: 90vw;*/
+  margin: 20px 8%;
   overflow: hidden;
 }
 
@@ -215,6 +220,7 @@ color: rgba(127, 181, 57, 1);
 
 .footer__social__links a{
   color: rgb(127, 181, 57);
+  text-align: center;
 }
 
 #insidefoot.linkss{
@@ -241,11 +247,21 @@ color: rgba(127, 181, 57, 1);
     font-size: 14px;
     font-weight: 400;
   }
+  .navigation__logo {
+    margin-left: 20px;
+  }
+  nav {
+    padding: 15px 0;
+  }
+  .navigation__logo {
+    margin-left: 8%;
+  }
   .navigation__items{
     display: none;
   }
   .hambergMenu{
     display: block;
+    margin-right: 8%;
   }
   .footer__links{
     grid-template-columns: repeat(3,1fr);
@@ -285,7 +301,7 @@ color: rgba(127, 181, 57, 1);
     padding: 8vh 4vw 2vh 4vw;
   }
   .footer__social__links{
-    width : 80vw;
+    /*width : 80vw;*/
     grid-gap: 3vw;
     margin: 10px 2vw 10px 5vw;
     grid-template-columns: 2fr 1fr 2fr;
@@ -317,7 +333,7 @@ color: rgba(127, 181, 57, 1);
     padding : 10vh 8vw 2vh 8vw;
   }
   .nav__items__mob ul{
-    width : 90vw;
+    width : 84vw;
   }
 
   #insideAbout.linkss{
@@ -332,7 +348,7 @@ color: rgba(127, 181, 57, 1);
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 95vw;
+    /*width: 95vw;*/
     margin: 20px 7vw;
     font-size: 12px;
     grid-gap: 2vw;
@@ -364,7 +380,7 @@ color: rgba(127, 181, 57, 1);
     width: 75vw;
   }
   .nav__items__mob ul{
-    width : 92vw;
+    width : 84vw;
   }
 
   .btn{
@@ -376,7 +392,7 @@ color: rgba(127, 181, 57, 1);
   .footer__links{
     grid-template-columns: repeat(2,1fr);
     grid-gap : 4vw;
-    padding : 10vh 3vw 2vh 3vw;
+    padding : 10vh 8% 2vh 8%;
   }
   .footer__social__links{
     grid-gap: 2vw;

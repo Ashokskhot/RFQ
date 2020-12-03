@@ -1,17 +1,28 @@
+.head__section {
+  background-image:linear-gradient(rgba(127, 181, 57, 0.8),rgba(127, 181, 57, 0.8)), url(../images/home.jpg);
+}
+
 .header__mid {
-  width : 70vw !important;
+  width : 85vw !important;
 }
 
 .buttons a{
-  margin : 50px;
-  padding : 20px 30px;
+  margin: 25px;
+  padding: 15px 35px;
 }
 .mission{
-  width : 70vw;
+  width : 84%;
   margin : auto;
   margin-bottom: 100px;
 }
-
+.mission .heading2 {
+  font-size: 46px;
+  font-weight: 600;
+}
+.mission p {
+  font-size: 16px;
+  font-weight: 400;
+}
 .contentt{
     margin-top: -50px;
   padding : 50px;
@@ -48,7 +59,7 @@ input[type='radio']:after {
 }
 
 .mid__section{
-  width : 80vw;
+  width : 84%;
   margin: 5vh auto;
   text-align: center;
 }
@@ -103,7 +114,7 @@ input[type='radio']:after {
 
 .images .para1{
   background-image: url("../images/construction-materials.jpg");
-  height : 400px;
+  height : 350px;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -111,7 +122,7 @@ input[type='radio']:after {
 
 .images .para3{
   background-image: url("../images/images.jpg");
-  height : 400px;
+  height : 350px;
   background-size: cover;
   background-position:center;
   border-radius: 10px;
@@ -119,7 +130,7 @@ input[type='radio']:after {
 
 .images .para2{
   background-image: url("../images/masonry-buildings.png");
-  height : 400px;
+  height : 350px;
   background-size: cover;
   background-position:center;
   border-radius: 10px;
@@ -127,7 +138,7 @@ input[type='radio']:after {
 
 .images .para4{
   background-image: url("../images/construction-materials.jpg");
-  height : 400px;
+  height : 350px;
   background-size: cover;
   background-position:center;
   border-radius: 10px;
@@ -145,13 +156,23 @@ input[type='radio']:after {
   color: white;
   bottom: 0;
   left: 0;
-  padding: 50px;
+  padding: 30px;
   margin: 0;
+  height: 150px;
 }
 
 
 .images div:hover p{
   display: block;
+}
+.buttons-custom {
+  margin: 60px 30px 30px;
+  text-align: center;
+}
+.btn-custom {
+  box-shadow: rgba(127, 181, 57, 0.56) 0 20px 25px -5px, rgba(127, 181, 57, 0.36) 0 10px 10px -5px;
+  background: rgba(127, 181, 57, 1);
+  color: white;
 }
 
 .benfits {
@@ -185,12 +206,12 @@ input[type='radio']:after {
 }
 
 .benfits img {
-  height : 250px;
+  height : 270px;
   border-radius: 10px;
 }
 
 .benfits .imagge{
-  padding : 20px;
+  padding : 0 20px 20px;
 }
 
 .benfits div p{
@@ -208,7 +229,7 @@ input[type='radio']:after {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap : 40px;
-  margin: 80px;
+  margin: 80px 8%;
 }
 
 
@@ -216,12 +237,14 @@ input[type='radio']:after {
   border-radius: 10px;
   background-color: white;
   border : 1px solid rgb(127, 181, 57);
-  padding : 40px;
+  padding : 80px;
   text-align: center;
+  box-shadow: rgba(162, 162, 162, 0.56) 0 20px 25px -5px, rgba(213, 213, 213, 0.36) 0 10px 10px -5px;
 }
 
 .features div p{
   margin-top: 20px;
+  font-size: 22px;
 }
 
 @media (max-width : 1400px)  {
@@ -231,44 +254,67 @@ input[type='radio']:after {
     margin-left: 0;
   }
 
-  .benfits img{
+  /*.benfits img{
     height : 200px;
     margin-left: 5vw;
-  }
+  }*/
 
   .images{
     grid-gap : 10px;
-    margin: 30px;
+    margin: 30px 8%;
   }
 
 }
 
 @media (max-width : 1100px) {
+  .mission {
+    width: 84%;
+  }
   .mid__section{
-    margin : 5vw 5vw 5vw 5vw;
-    width : 90vw;
+    margin: 5vw 8% 5vw;
+    width: 84%;
   }
   .benfits{
     margin-right: 0;
   }
-
+  .benfits img{
+    height : 200px;
+    margin-left: 5vw;
+  }
   .benfits p{
     font-size: 13px;
   }
-
+  .features div {
+    padding: 40px;
+  }
+  .features div p {
+    font-size: 16px;
+  }
   .images{
     grid-template-columns: 1fr 1fr;
-    margin :10vw;
+    margin :8%;
     grid-gap: 40px;
   }
+  .mission .heading2 {
+    font-size: 30px;
+  }
+  .heading2 h2{
+    font-size: 30px;
+  }
+  .heading h2{
+    font-size: 30px;
+  }
+
 }
-@media (max-width : 900px)
- {
+@media (max-width : 900px) {
+  .mission .heading2 {
+    font-size: 25px;
+  }
    .heading2 h2{
-     font-size: 20px;
+     font-size: 25px;
    }
    .heading h2{
-     font-size: 20px;
+     font-size: 25px;
    }
 
    .ok .hr {
@@ -358,7 +404,7 @@ input[type='radio']:after {
   }
 
   iframe{
-    width: 90vw;
+    width: 100%;
   }
 
 }

@@ -11,13 +11,14 @@
   padding: 10px 40px;
   border-radius: 5px;
   font-size: 16px;
+  color: #2b2a2a;
 }
 
 .type a.active{
   color: rgba(127, 181, 57, 1);
 }
 .faqs{
-  width: 80vw;
+  width: 84%;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 100px;

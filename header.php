@@ -13,7 +13,7 @@
 <div class="main__body">
 
     <div class="head__section">
-        <nav>
+        <nav class="navbar-fixed-top">
             <div class="navigation__logo">
                 <h2>LOGO</h2>
             </div>
@@ -24,7 +24,7 @@
                     <li><a href="faq.php">FAQ's </a> </li>
                     <li><a href="contactUs.php">Contact Us </a> </li>
                     <li><a href="#" class="btn">Become a supplier </a> </li>
-                    <li><a href="#" class="btn active">Post a FAQ </a> </li>
+                    <li><a href="#" class="btn">Post a FAQ </a> </li>
                     <li><a href="#" class="btn">Sign In </a> </li>
                 </ul>
             </div>

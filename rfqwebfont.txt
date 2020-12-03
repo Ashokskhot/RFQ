@@ -6,7 +6,7 @@ paragraph - 16 regular
 menu  - 20 semibold
 Footer - Titles 24 semibold, 18  regular paragraphs
 
-For mobile 
+For mobile
 
 Hero sectionTitles - 25 semibold
 Titles - 20 semibold
@@ -19,3 +19,16 @@ Hero section Titles - 30 semibold
 Titles - 20 semibold
 paragraph - 14 regular
 Footer - Titles 18 semibold, 12 regular paragraphs
+
+
+Value 	Common weight name
+100 	Thin (Hairline)
+200 	Extra Light (Ultra Light)
+300 	Light
+400 	Normal (Regular)
+500 	Medium
+600 	Semi Bold (Demi Bold)
+700 	Bold
+800 	Extra Bold (Ultra Bold)
+900 	Black (Heavy)
+950 	Extra Black (Ultra Black)
