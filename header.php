@@ -19,7 +19,7 @@
             </div>
             <div class="navigation__items">
                 <ul>
-                    <li><a href="home.php">Home </a> </li>
+                    <li><a href="index.php">Home </a> </li>
                     <li><a href="about.php">About us </a> </li>
                     <li><a href="faq.php">FAQ's </a> </li>
                     <li><a href="contactUs.php">Contact Us </a> </li>
@@ -34,7 +34,7 @@
             <div class="nav__items__mob">
                 <div style="position : relative">
                     <ul>
-                        <li><a href="home.php">Home </a> </li>
+                        <li><a href="index.php">Home </a> </li>
                         <li><a href="about.php">About us </a> </li>
                         <li><a href="faq.php">FAQ's </a> </li>
                         <li><a href="contactUs.php">Contact Us </a> </li>
