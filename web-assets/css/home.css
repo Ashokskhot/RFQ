@@ -199,7 +199,7 @@ input[type='radio']:after {
     padding: 23px;
 }
 .type div p {
-  font-size: 34px;
+  font-size: 24px;
 }
 .type div.active{
   background: rgb(127, 181, 57);
@@ -239,14 +239,14 @@ input[type='radio']:after {
   border-radius: 10px;
   background-color: white;
   border : 1px solid rgb(127, 181, 57);
-  padding : 80px;
+  padding : 40px;
   text-align: center;
   box-shadow: rgba(162, 162, 162, 0.56) 0 20px 25px -5px, rgba(213, 213, 213, 0.36) 0 10px 10px -5px;
 }
 
 .features div p{
   margin-top: 20px;
-  font-size: 34px;
+  font-size: 24px;
 }
 
 @media (max-width : 1400px)  {
