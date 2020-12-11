@@ -242,7 +242,9 @@ color: rgba(127, 181, 57, 1);
     font-weight: 600;
     font-size: 30px;
   }
-
+  .type div p {
+    font-size: 22px;
+  }
   .header__mid p{
     font-size: 14px;
     font-weight: 400;

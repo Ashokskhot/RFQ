@@ -198,7 +198,9 @@ input[type='radio']:after {
     margin-top: -1px;
     padding: 23px;
 }
-
+.type div p {
+  font-size: 34px;
+}
 .type div.active{
   background: rgb(127, 181, 57);
   color: white;
@@ -244,7 +246,7 @@ input[type='radio']:after {
 
 .features div p{
   margin-top: 20px;
-  font-size: 22px;
+  font-size: 34px;
 }
 
 @media (max-width : 1400px)  {
